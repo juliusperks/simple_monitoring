@@ -1,5 +1,7 @@
 # simple_monitoring
 
+https://roadmap.sh/projects/simple-monitoring-dashboard
+
 Basic monitoring setup using Netdata
 
 ## Usage
@@ -16,4 +18,5 @@ Dashboard: 'http://<your-ip>:19999'
 
 The setup creates a CPU alert at '/etc/netdata/healh.d/custom_cpu.conf':
 - Warning: >80%
+
 - Critical: >95%
